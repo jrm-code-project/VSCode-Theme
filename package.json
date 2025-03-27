@@ -1,0 +1,37 @@
+{
+    "name": "jrm-theme",
+    "version": "0.0.4",
+    "displayName": "Jrm's Theme",
+    "description": "A theme that jrm made for himself.",
+    "publisher": "jmarshall",
+    "license": "MIT",
+    "scripts": {
+	"package": "vsce package -o ./bin/jrm-theme.vsix"
+    },
+    "maintainers": [
+	"Joe Marshall <eval.apply@gmail.com>"
+    ],
+    "contributors": [
+	"Joe Marshall"
+    ],
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+	"dark",
+	"theme",
+	"color-theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jrm Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jrm Theme-color-theme.json"
+            }
+        ]
+    }
+}
